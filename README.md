@@ -9,3 +9,24 @@ At start of application load intial below product.
 Apple - 0.60 cent
 Orange - 0.25 cent
 
+POST endpoint of Order:
+http://localhost:8090/api/orders
+
+POST request:
+{
+    "productOrders": [
+        {
+            "product": {
+                "id": 1
+            },
+            "quantity": 3
+        },
+        {
+            "product": {
+                "id": 2
+            },
+            "quantity": 3
+        }
+    ]
+}
+
