@@ -1,7 +1,7 @@
 # Online shopping spring boot REST API example
 Technology stack:
 1) Java 1.8
-2) Spring boot
+2) Spring boot 2.x
 3) gradle
 4) Spring JPA and H2 in-memory DB.
 
